@@ -1,0 +1,5 @@
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MiniPoolMonitor.Core/obj/Debug/net8.0/MiniPoolMonitor.Core.csproj.AssemblyReference.cache
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MiniPoolMonitor.Core/obj/Debug/net8.0/MiniPoolMonitor.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MiniPoolMonitor.Core/obj/Debug/net8.0/MiniPoolMonitor.Core.AssemblyInfoInputs.cache
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MiniPoolMonitor.Core/obj/Debug/net8.0/MiniPoolMonitor.Core.AssemblyInfo.cs
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MiniPoolMonitor.Core/obj/Debug/net8.0/MiniPoolMonitor.Core.csproj.CoreCompileInputs.cache
