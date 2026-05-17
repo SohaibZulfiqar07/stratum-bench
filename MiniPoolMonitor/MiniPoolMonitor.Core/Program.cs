@@ -20,7 +20,7 @@ try
 
     var builder = WebApplication.CreateBuilder(args);
     builder.Host.UseSerilog();
-    builder.WebHost.UseUrls("http://0.0.0.0:5000");
+    builder.WebHost.UseUrls("http://0.0.0.0:5050");
 
     builder.Services.AddSingleton<MinerStats>();
 

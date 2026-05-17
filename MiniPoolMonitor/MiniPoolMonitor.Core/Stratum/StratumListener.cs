@@ -110,7 +110,7 @@ public sealed class StratumListener
                 while (TryReadLine(ref buffer, out ReadOnlySequence<byte> line))
                 {
                     // Trim optional '\r' before '\n' without allocating strings.
-                    if (!line.IsEmpty && line.LastSpan.Length > 0 && line.LastSpan[^1] == (byte)'\r')
+                    if (!line.IsEmpty && line.Slice(line.Length - 1, 1).FirstSpan[0] == (byte)'\r')
                         line = line.Slice(0, line.Length - 1);
 
                     if (line.Length > 0)

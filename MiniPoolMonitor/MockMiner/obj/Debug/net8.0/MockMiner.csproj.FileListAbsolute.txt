@@ -1,0 +1,15 @@
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MockMiner/obj/Debug/net8.0/MockMiner.GeneratedMSBuildEditorConfig.editorconfig
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MockMiner/obj/Debug/net8.0/MockMiner.AssemblyInfoInputs.cache
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MockMiner/obj/Debug/net8.0/MockMiner.AssemblyInfo.cs
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MockMiner/obj/Debug/net8.0/MockMiner.csproj.CoreCompileInputs.cache
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MockMiner/obj/Debug/net8.0/MockMiner.sourcelink.json
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MockMiner/bin/Debug/net8.0/MockMiner
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MockMiner/bin/Debug/net8.0/MockMiner.deps.json
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MockMiner/bin/Debug/net8.0/MockMiner.runtimeconfig.json
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MockMiner/bin/Debug/net8.0/MockMiner.dll
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MockMiner/bin/Debug/net8.0/MockMiner.pdb
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MockMiner/obj/Debug/net8.0/MockMiner.dll
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MockMiner/obj/Debug/net8.0/refint/MockMiner.dll
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MockMiner/obj/Debug/net8.0/MockMiner.pdb
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MockMiner/obj/Debug/net8.0/MockMiner.genruntimeconfig.cache
+/Users/apple/Documents/SampleProject/ProjectFolder/MiniPoolMonitor/MockMiner/obj/Debug/net8.0/ref/MockMiner.dll

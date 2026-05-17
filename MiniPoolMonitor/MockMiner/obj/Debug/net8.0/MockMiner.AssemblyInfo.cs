@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MockMiner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2628809c127bdca85ac39d697ce1565a042f4b2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MockMiner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MockMiner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

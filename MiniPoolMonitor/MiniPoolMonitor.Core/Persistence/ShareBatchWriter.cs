@@ -70,10 +70,10 @@ public sealed class ShareBatchWriter : BackgroundService
                 }
 
                 // Wait either for new data or for the next flush tick.
-                var tickTask = timer.WaitForNextTickAsync(stoppingToken);
-                var dataTask = _channel.Reader.WaitToReadAsync(stoppingToken);
+                var tickTask = timer.WaitForNextTickAsync(stoppingToken).AsTask();
+                var dataTask = _channel.Reader.WaitToReadAsync(stoppingToken).AsTask();
 
-                if (await ValueTask.WhenAny(tickTask, dataTask).ConfigureAwait(false) == tickTask)
+                if (await Task.WhenAny(tickTask, dataTask).ConfigureAwait(false) == tickTask)
                 {
                     await tickTask.ConfigureAwait(false);
                     if (buffer.Count > 0)
@@ -134,7 +134,7 @@ public sealed class ShareBatchWriter : BackgroundService
         {
             await using var tx = await connection.BeginTransactionAsync(cancellationToken).ConfigureAwait(false);
             await using var cmd = connection.CreateCommand();
-            cmd.Transaction = tx;
+            cmd.Transaction = (SqliteTransaction)tx;
 
             var sql = new StringBuilder(capacity: 64 + (batch.Count * 32));
             sql.Append("INSERT INTO shares(miner, difficulty, accepted_at) VALUES ");

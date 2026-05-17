@@ -39,7 +39,7 @@ while (await timer.WaitForNextTickAsync(cts.Token))
 
     // Newline-delimited JSON-RPC-ish payload.
     string json =
-        $$"""{"id":{{id++}},"jsonrpc":"2.0","method":"mining.submit","params":{"miner":"{{miner}}","difficulty":{{difficulty}}}}""";
+       "{\"id\":" + id++ + ",\"jsonrpc\":\"2.0\",\"method\":\"mining.submit\",\"params\":{\"miner\":\"" + miner + "\",\"difficulty\":" + difficulty + "}}";
 
     await writer.WriteLineAsync(json.AsMemory(), cts.Token);
 }
